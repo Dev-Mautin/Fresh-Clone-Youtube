@@ -1,0 +1,50 @@
+p{
+    font-family:roboto,arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 95px;
+    padding-right: 15px;
+    
+}
+@media(max-width:454px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}
+
+@media(min-width:422px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+.head{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.contact-header{
+    color: white;
+}
+.entire{
+    background-color: rgb(95, 95, 95);
+    border-radius: 20px;
+}
+.developer-name{
+    color: white;
+  
+
+}
+.details b{
+    color: rgb(236, 231, 231);
+}
